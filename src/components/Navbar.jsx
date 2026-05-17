@@ -35,8 +35,8 @@ const Navbar = () => {
         >
             {/* Logo */}
             <a href="#" onClick={e => scroll(e, 'home')} className="group flex items-center gap-3 cursor-none">
-                <div className="w-8 h-8 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center font-display font-black text-bright text-sm group-hover:bg-accent group-hover:border-accent group-hover:text-void transition-all duration-500">
-                    S
+                <div className="w-8 h-8 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center text-lg group-hover:bg-accent group-hover:border-accent group-hover:text-void transition-all duration-500">
+                    👦
                 </div>
                 <span className="hidden md:block font-mono text-[10px] uppercase tracking-[0.35em] text-white/30 group-hover:text-white/70 transition-colors">
                     Shanawas
